@@ -1,0 +1,147 @@
+
+section:not(.no-height) > * {
+    z-index: 2;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+section.title{
+    height: 30vh;
+    font-family: "Karantina-Bold";
+    
+}
+button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Karantina-Bold";
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    height: 40px;
+    width: 210px;
+    border-style:solid;
+    border-color: white;
+    transition: all 0.7s;
+    z-index: 2;
+}
+.white-button{
+    background-color: white;
+    color: black;
+}
+.white-button:hover{
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+button::before{
+    content: '';
+    position: absolute;
+    height: 38px;
+    width: 34px;
+    bottom: 0;
+    right: 0;
+    transform: translate(30px,-30px);
+    background-image: url(img/lines.svg);
+}
+button > a {
+    color: inherit;
+    text-decoration: inherit;
+}
+button > a:hover{
+    color: inherit;
+    text-decoration: inherit;
+}
+.circle{
+    position: absolute;
+    bottom: 0;  
+}
+.circle::before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    height: 35vw;
+    width: 35vw;
+    background-color: black;
+    border-radius: 1000px;
+    transform: translate(-56vw,8vw);
+}
+.circle::after{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    height: 35vw;
+    width: 35vw;
+    background-color: white;
+    border-radius: 1000px;
+    transform: translate(-21.7vw,14.5vw);
+}
+.circle2{
+    position: absolute;
+    bottom: 0;  
+}
+.circle2::before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    height: 35vw;
+    width: 35vw;
+    background-color: black;
+    border-radius: 1000px;
+    transform: translate(-7.69vw,-17.5vw);
+}
+.circle2::after{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    height: 35vw;
+    width: 35vw;
+    border-radius: 1000px;
+    background-color: white;
+    transform: translate(27.36vw,-18vw);
+}
+.rectangle{
+    position: absolute;
+    bottom: 0;
+    width: 35vw;
+    height: 2vw;
+}
+.rectangle::before{
+    content: '';
+    position: absolute;
+    width: 52vw;
+    height: 31.5vw;
+    background-color: black;
+    z-index: 1;
+    transform: translate(-50vw,0);
+}
+.hidden{
+    visibility: hidden;
+}
+.no-height{
+    height: 0;
+}
+.CV{
+    color: black;
+    position: absolute;
+    z-index: 3;
+    font-family: "Karantina-Bold";
+    font-size: max(20px,2.5vw);
+    
+    text-decoration: none;
+    transform: translate(41vw,-7.5vw);
+    transition:all 1.2s;
+}
+.CV:hover{
+    text-decoration: underline;
+}
+
+#About_Me{
+    padding-top: 33vw;
+    padding-bottom: 2vw;
+}
