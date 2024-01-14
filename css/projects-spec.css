@@ -1,0 +1,84 @@
+/* Couleurs spécifiques */
+
+.orange_letters{
+    color: #D9762C;
+}
+p{
+    color: white;
+}
+ /* Aventuriels */
+.separate > *{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+}
+
+.separate{
+
+    display: flex;
+    align-items: center;
+    height: 13rem;   
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-family: "Karantina-Bold";
+}
+.aventuriels-images{
+    height: 45vh;
+}
+.aventuriels-images p{
+    width: 100px;
+    font-family: "Karantina-Bold";
+}
+.aventuriels-images *{
+    position: absolute;
+}
+
+
+
+
+#Utilisateurs > img{
+    transform: translate(-340px,-35px);
+}
+#Utilisateurs > p {
+    transform: translate(-211px,-08px);
+}
+/*-----------*/
+#Route > img{
+    transform: translate(46px, -35px);
+}
+#Route > p{
+    transform: translate(143px,-8px);
+}
+/*-----------*/
+#Inventaire > img{
+    transform: translate(-220px,113px);
+}
+#Inventaire > p{
+    transform: translate(64px,214px);
+}
+
+
+/* SharkPoll */
+
+.black_n_white_letters p:nth-child(even){
+    color: black;
+}
+
+/* Projet Personnel */
+
+.black_letters *{
+    color: black;
+}
+
+/* OpenAi Productividad */
+
+.angular_letters{
+    color: #D3592C;
+}
+.python_letters{
+    color: #FFD343;
+}
+#test{
+
+    min-height: 34px;
+}

@@ -5,7 +5,7 @@ var button = buttonList[0];
 var wordList = [
 'Passionné', 
 'Persévérant', 
-'Créatif',
+'Créative',
 "Enthousiaste",
 '<a href="#About_Me"> Découvrez-moi </a>'];
 

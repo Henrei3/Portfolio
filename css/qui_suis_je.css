@@ -2,15 +2,6 @@
 section:not(.no-height) > * {
     z-index: 2;
 }
-.white{
-    background-color: white;
-    color: black;
-}
-section.title{
-    height: 30vh;
-    font-family: "Karantina-Bold";
-    
-}
 button{
     position: relative;
     display: flex;
@@ -124,6 +115,7 @@ button > a:hover{
     visibility: hidden;
 }
 .no-height{
+    min-height: 0;
     height: 0;
 }
 .CV{
@@ -140,7 +132,10 @@ button > a:hover{
 .CV:hover{
     text-decoration: underline;
 }
-
+.presentation{
+    min-height: 100vh;
+    height: 100vh;
+}
 #About_Me{
     padding-top: 33vw;
     padding-bottom: 2vw;
