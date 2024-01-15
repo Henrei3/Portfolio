@@ -140,3 +140,12 @@ button > a:hover{
     padding-top: 33vw;
     padding-bottom: 2vw;
 }
+.disclaimer{
+    min-height: 300px;
+}
+.disclaimer p{
+    min-width: 500px;
+}
+.disclaimer img{
+    min-height: 10px;
+}

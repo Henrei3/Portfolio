@@ -10,7 +10,7 @@ p{
 .separate > *{
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 40px;
+    
 }
 
 .separate{
@@ -20,7 +20,6 @@ p{
     height: 13rem;   
     margin-top: 20px;
     margin-bottom: 2px;
-    font-family: "Karantina-Bold";
 }
 .aventuriels-images{
     height: 45vh;
@@ -78,7 +77,8 @@ p{
 .python_letters{
     color: #FFD343;
 }
-#test{
 
-    min-height: 34px;
+h2{
+    font-family: "Karantina-Bold";
+    font-size: 40px;
 }
